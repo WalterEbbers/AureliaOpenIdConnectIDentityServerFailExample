@@ -1,0 +1,28 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+  <base href="./" />
+  <meta charset="utf-8">
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+  <meta http-equiv="Cache-control" content="no-cache, no-store, must-revalidate">
+  <meta http-equiv="Pragma" content="no-cache">
+  <meta name="theme-color" content="#14418A">
+  <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon" />
+</head>
+<body >
+  <div aurelia-app="main">
+    <script src="scripts/vendor-bundle.js"></script>
+    <script>
+      SystemJS.import("aurelia-bootstrapper").catch(function (error) { console.log(error); });
+    </script>
+    <script>
+      Promise.config({ longStackTraces: false, cancellation: true });
+    </script>
+    <script src="scripts/jquery.signalR.min.js"></script>
+    <!--<script src="signalr/hubs"></script>-->
+  </div>
+  
+</body>
+</html>         

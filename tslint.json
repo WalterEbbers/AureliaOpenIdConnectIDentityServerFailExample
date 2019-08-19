@@ -1,0 +1,11 @@
+{
+  "rules": {
+    "one-line": [ false, "check-catch", "check-else", "check-finally", "check-open-brace", "check-whitespace" ],
+    "no-duplicate-imports": true,
+    "semicolon": [ true, "always" ],
+    "no-magic-numbers": true,
+    "curly": true,
+    "eofline": true,
+    "indent": [ true, "spaces", 2 ]
+  }
+}
